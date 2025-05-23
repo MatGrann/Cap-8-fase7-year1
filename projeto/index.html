@@ -6,20 +6,21 @@
     <title>Document</title>
     <script src="/projeto/node_modules/jquery/dist/jquery.js"></script>
     <script>
-        $(document).ready(function(){
+        $(function(){
             $("button").click(function(){
-                $("h2").hide();
-                alert("Button clicked");
-            })
-
-           
+                $(".tels").hide();
+            });       
         })
-
        
     </script>
 </head>
 <body>
     <h2>PAGINA FIAP</h2>
     <button>Clique aqui</button>
+    <p>Hoje é um belo dia</p>
+
+    <div id="tals">Camada com ID</div>
+
+    <div class="tels">Camada com class</div>
 </body>
 </html>
