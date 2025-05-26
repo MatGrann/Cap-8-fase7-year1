@@ -1,26 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="/projeto/node_modules/jquery/dist/jquery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script>
-        $(function(){
-            $("button").click(function(){
-                $(".tels").hide();
-            });       
-        })
-       
+        $(document).ready(function () {
+         
+
+        //    $("p").css({
+        //     "font-size":"35px",
+        //     "background-color":"green",
+        //     "color":"white",
+        //     "text-align" : "center",
+        //    })
+
+
+    
+
+        $("p").addClass("fiap");
+        $("h1").addClass("tit1");
+        $("h2").addClass("tit2");
+
+        
+        
+    })
+
     </script>
+    <style>
+        .fiap{
+            color: brown;
+            text-align: center;
+        }
+
+        .tit1{
+            font-size: large;
+            color: aqua;
+        }
+        
+        .tit2{
+            font-size: small;
+            color: green;
+        }
+    </style>
 </head>
 <body>
-    <h2>PAGINA FIAP</h2>
-    <button>Clique aqui</button>
-    <p>Hoje é um belo dia</p>
 
-    <div id="tals">Camada com ID</div>
 
-    <div class="tels">Camada com class</div>
+   <p>Teste de Conteúdo</p>
+   <h1>Teste1</h1>
+   <h2>Teste2</h2>
+
+
 </body>
 </html>
